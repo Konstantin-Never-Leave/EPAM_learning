@@ -11,7 +11,6 @@ import time
 external_input = []  # divider
 
 
-
 def dividend_find(dividend, divisor=1, divisor_list=None):
     """
     :param dividend: Need to input only this parameter
