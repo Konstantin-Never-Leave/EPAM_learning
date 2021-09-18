@@ -67,7 +67,7 @@ if __name__ == "__main__":
             return "\033[41m {}\033[0m".format(msg_failed)
 
 
-    print("Task_1_1 ", check_1st_task(checking_value_1_1, expected_output_1_1))
+    print("{:<12}".format("Task_1_1 "), check_1st_task(checking_value_1_1, expected_output_1_1))
 
 
     def check_2nd_task(check_value, expect_output):
@@ -83,7 +83,7 @@ if __name__ == "__main__":
         else:
             return "\033[41m {}\033[0m".format(msg_failed)
 
-    print("Task_1_2 ", check_2nd_task(checking_value_1_2, expected_output_1_2))
+    print("{:<12}".format("Task_1_2 "), check_2nd_task(checking_value_1_2, expected_output_1_2))
 
 
     def check_3d_task(check_value, expect_output):
@@ -99,7 +99,7 @@ if __name__ == "__main__":
             return "\033[41m {}\033[0m".format(msg_failed)
 
 
-    print("Task_1_3 ", check_3d_task(checking_value_1_3, expected_output_1_3))
+    print("{:<12}".format("Task_1_3 "), check_3d_task(checking_value_1_3, expected_output_1_3))
 
 
     def check_3_1th_task(check_value, expect_output):
@@ -116,7 +116,7 @@ if __name__ == "__main__":
             return "\033[41m {}\033[0m".format(msg_failed)
 
 
-    print("Task_1_3_1 ", check_3_1th_task(checking_value_1_3_1, expected_output_1_3_1))
+    print("{:<12}".format("Task_1_3_1 "), check_3_1th_task(checking_value_1_3_1, expected_output_1_3_1))
 
 
     def check_4th_task(check_value, expect_output):
@@ -133,7 +133,7 @@ if __name__ == "__main__":
             return "\033[41m {}\033[0m".format(msg_failed)
 
 
-    print("Task_1_4 ", check_4th_task(checking_value_1_4, expected_output_1_4))
+    print("{:<12}".format("Task_1_4 "), check_4th_task(checking_value_1_4, expected_output_1_4))
 
 
     def check_5th_task(check_value, expect_output):
@@ -150,7 +150,7 @@ if __name__ == "__main__":
             return "\033[41m {}\033[0m".format(msg_failed)
 
 
-    print("Task_1_5 ", check_5th_task(checking_value_1_5, expected_output_1_5))
+    print("{:<12}".format("Task_1_5 "), check_5th_task(checking_value_1_5, expected_output_1_5))
 
 
     def check_6th_task(check_value, expect_output):
@@ -167,7 +167,7 @@ if __name__ == "__main__":
             return "\033[41m {}\033[0m".format(msg_failed)
 
 
-    print("Task_1_6 ", check_6th_task(checking_value_1_6, expected_output_1_6))
+    print("{:<12}".format("Task_1_6 "), check_6th_task(checking_value_1_6, expected_output_1_6))
 
 
     def check_6_1th_task(a, b, c, d):
