@@ -6,6 +6,7 @@ Write a Python program to calculate the length of a string without using the `le
 external_input = ""
 internal_input = "Python program to calculate the length"
 
+
 def length_count(x):
     """
     length calculation without len method
